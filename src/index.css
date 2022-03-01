@@ -1,7 +1,0 @@
-// CORE
-@import url(core/default/_defaults.css);
-@import url(core/variables/_variables.css);
-
-// COMPONENTS
-@import url(components/cards/_cards.css);
-@import url(components/navbar/_navbar.css);
