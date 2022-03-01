@@ -32,6 +32,7 @@
     color: #ddd;
     position: relative;
     padding: 12px;
+    margin-left: 25px;
 }
 
 .search input::placeholder{
@@ -48,4 +49,14 @@
     border-top-right-radius: 2.82px;
     border-bottom-right-radius: 2.82px;
     padding: 0 17px;
+    cursor: pointer;
+}
+
+.search .search-icon{
+    background-image: url(../../../img/search-icon.svg);
+    width: 20px;
+    height: 15px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 10px;
 }
