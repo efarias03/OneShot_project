@@ -2,4 +2,10 @@
     width: 100%;
     background: #070707;
     height: 55px;
+    display: flex;
+}
+
+.logo{
+    background-image: url(../../../img/logo.svg) no-repeat;
+    width: 100px;
 }
