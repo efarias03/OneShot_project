@@ -1,0 +1,9 @@
+.navbar{
+    width: 100%;
+    background: blue;
+    height: 55px;
+}
+
+.navbar div{
+    display: flex;
+}
