@@ -8,3 +8,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--background-color);
 }
+
+h1,h2,h3,h4,h4,h6,a,p{
+    color: var(--text1);
+}
