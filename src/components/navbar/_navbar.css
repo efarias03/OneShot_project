@@ -19,4 +19,28 @@
     align-items: center;
     background: #212121;
     border-radius: 2.82px;
+    max-width: 747px;
+    height: 35px;
+}
+
+.search input{
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 14.58px;
+    color: #7B7B7B;
+    position: relative;
+}
+
+.search input::placeholder{
+    color: #7B7B7B;
+}
+
+.search input::before{
+    content: '';
+    background-image: url(../../../img/search-icon.svg);
+    width: 13.41px;
+    height: 13.41px;
+    display: block;
+    position: absolute;
 }
