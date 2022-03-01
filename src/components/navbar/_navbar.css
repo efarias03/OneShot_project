@@ -3,9 +3,20 @@
     background: #070707;
     height: 55px;
     display: flex;
+    align-items: center;
+    padding: 10px;
 }
 
 .logo{
-    background-image: url(../../../img/logo.svg) no-repeat;
-    width: 100px;
+    background-image: url(../../../img/logo.svg);
+    width: 110px;
+    height: 35px;
+    background-repeat: no-repeat;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background: #212121;
+    border-radius: 2.82px;
 }
